@@ -3,16 +3,15 @@ import React from "react";
 export default function About() {
   return (
     <section
-      className="px-10 py-32 max-w-3xl ml-auto text-gray-800 leading-loose"
+      className="px-10 py-32 max-w-3xl ml-auto text-[#ccd6f6]leading-loose"
       id="about"
     >
-      <p className="text-sm text-blue-600 font-medium mb-2">ABOUT</p>
-      <h2 className="text-4xl font-bold text-gray-900 mb-8">Who I am</h2>
+      <p className="text-sm  text-white font-medium mb-2">ABOUT</p>
+      <h2 className="text-4xl font-bold text-white mb-8">Who I am</h2>
 
       <p className="mb-6 text-lg">
         저는 사람과 기술을 연결하는 AI 기반 서비스를 만드는 데 열정을 가진
-        개발자입니다. 단순히 기능을 구현하는 것을 넘어, 사용자에게 진짜 가치를
-        전달할 수 있는 시스템을 고민하고 설계하는 것을 좋아합니다.
+        개발자입니다.
       </p>
 
       <p className="mb-6 text-lg">
@@ -23,7 +22,7 @@ export default function About() {
       </p>
 
       <p className="mb-6 text-lg">
-        최근에는 JudeBalance라는 헬스케어 앱 개발을 주도했습니다. <br />
+        최근에는 균형마당이라는 헬스케어 앱 개발을 주도했습니다. <br />
         React Native, FastAPI, Spring Boot로 구성된 이 앱은 사용자의 균형
         데이터를 측정하고 분석하여, OpenAI API와 머신러닝 기반 추천 모델을 통해
         개인 맞춤형 운동 가이드를 제공합니다. 사용자 상태에 따라 실시간 피드백을
@@ -37,8 +36,7 @@ export default function About() {
       </p>
 
       <p className="mb-6 text-lg">
-        여가 시간에는 축구나 러닝 같은 다양한 스포츠를 즐기며 몸과 마음의 균형을
-        유지하려고 노력합니다.
+        여가 시간에는 주로 축구와 러닝을 하고있습니다.{" "}
       </p>
     </section>
   );
