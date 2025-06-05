@@ -31,7 +31,7 @@ export default function Experience() {
         </div>
         <div className="mt-16">
           <a
-            href="/resume.pdf" // 실제 이력서 경로로 수정
+            href="../public/이력서.pdf" // 실제 이력서 경로로 수정
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center text-[#ccd6f6] font-medium hover:text-[#64ffda] transition"
