@@ -60,7 +60,7 @@ export default function Projects() {
         <div className="mt-8 flex justify-center">
           <div className="w-[400px] h-[640px] rounded-xl overflow-hidden shadow-lg bg-black">
             <video
-              src="../public/균형마당 비디오.mp4"
+              src="/AppVideo.MP4"
               controls
               className="w-full h-full object-contain"
             />
