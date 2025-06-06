@@ -3,6 +3,10 @@ import React from "react";
 export default function Experience() {
   return (
     <section className="px-6 py-20 bg-[#0a192f] text-[#ccd6f6]" id="experience">
+      {/* ✅ 모바일 상단에 고정되는 제목 */}
+      <h2 className="lg:hidden sticky top-0 z-30 bg-[#0a192f] py-2 sm:py-2 mb-4 text-[#ccd6f6] text-lg font-semibold shadow">
+        EXPERIENCE
+      </h2>
       <div className="space-y-14">
         {/* 수영 강사 */}
         <div>

@@ -3,11 +3,13 @@ import React from "react";
 export default function About() {
   return (
     <section
-      className="px-10 py-32 max-w-3xl ml-auto text-[#ccd6f6]leading-loose"
+      className="px-6 sm:px-10 pt-12 pb-24 sm:pt-32 sm:pb-32 max-w-3xl ml-auto text-[#8892b0] leading-loose"
       id="about"
     >
-      <p className="text-sm  text-white font-medium mb-2">ABOUT</p>
-      <h2 className="text-4xl font-bold text-white mb-8">Who I am</h2>
+      {/* ✅ 모바일 + 태블릿에서만 보이는 sticky 제목 */}
+      <h2 className="lg:hidden sticky top-0 z-30 bg-[#0a192f] py-2 sm:py-2 mb-4 text-[#ccd6f6] text-lg font-semibold shadow">
+        ABOUT
+      </h2>
 
       <p className="mb-6 text-lg">
         저는 사람과 기술을 연결하는 AI 기반 서비스를 만드는 데 열정을 가진
@@ -36,7 +38,7 @@ export default function About() {
       </p>
 
       <p className="mb-6 text-lg">
-        여가 시간에는 주로 축구와 러닝을 하고있습니다.{" "}
+        여가 시간에는 주로 축구와 러닝을 하고있습니다.
       </p>
     </section>
   );
