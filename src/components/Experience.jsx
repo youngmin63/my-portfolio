@@ -61,7 +61,7 @@ export default function Experience() {
 
         <div className="mt-16">
           <a
-            href="public/이력서.pdf"
+            href="/public/이력서.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center text-[#ccd6f6] font-medium hover:text-[#64ffda] transition"
