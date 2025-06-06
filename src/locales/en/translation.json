@@ -1,8 +1,8 @@
 {
   "about_title": "ABOUT",
   "about_1": "I am a developer passionate about building AI-based services that connect people and technology.",
-  "about_2": "I initially majored in nursing, but during clinical practice, I encountered various medical technologies that inspired me with the potential of helping people through tech. After much reflection, I decided to take a leave of absence and shift my path to programming and artificial intelligence.",
-  "about_3": "Recently, I led the development of a healthcare app called JudeBalance. Built with React Native, FastAPI, and Spring Boot, the app measures and analyzes users' balance data to provide personalized exercise recommendations using the OpenAI API and a machine learning model.I personally designed and implemented the AI feedback system that gives real-time guidance based on user conditions.",
+  "about_2": "I began my studies in nursing, but hands-on experience with medical technology made me realize the power of tech in helping people. This inspired me to change direction and pursue programming and AI.",
+  "about_3": "I led the development of JudeBalance, a mobile app that analyzes balance data and recommends personalized exercises. I built the AI feedback system using OpenAI and ML, and developed the app with React Native, FastAPI, and Spring Boot.",
   "about_4": "Serving as a combat medic and working as a swimming teacher taught me that teamwork, empathy, and staying calm under pressure matter just as much as technical skill. I value building solutions through collaboration and clear communication.",
   "about_5": "In my free time, I enjoy playing football and going for runs.",
 
@@ -22,8 +22,11 @@
   "projects_title": "PROJECTS",
   "projects_type": "Team Project",
   "projects_name": "JudeBalance",
-  "projects_desc1": "JudeBalance is an AI-powered healthcare app designed to improve balance in middle-aged and older adults. Users measure sensor data for 20 seconds while holding the phone to their ear, and receive personalized exercise recommendations.",
-  "projects_desc2": "The frontend was built with React Native using Expo to ensure stability across mobile environments. The backend uses Spring Boot and FastAPI to manage user data and provide AI analysis.",
-  "projects_desc3": "It integrates OpenAI’s API for LLM-based feedback and a machine learning model built with scikit-learn to offer customized exercise guidance based on user status.",
-  "projects_desc4": "The entire backend is deployed on Render, and the client-AI server communication uses a RESTful API structure for high reliability and scalability."
+  "projects_desc1": "JudeBalance is an AI-powered healthcare app designed to assess and improve balance in middle-aged and older adults. Users hold a smartphone to their ear and stand on one foot for 20 seconds, during which 3-axis accelerometer and gyroscope data are collected at 20Hz intervals.",
+
+  "projects_desc2": "From the collected sensor data, features such as sway magnitude, variability, and stability are extracted to calculate a balance score. A LightGBM-based classification model then analyzes this score along with user demographics to recommend the most suitable exercise from 15 predefined options.",
+
+  "projects_desc3": "The app integrates the OpenAI API to generate natural language feedback and explanations for each recommendation, providing users with intuitive and motivating guidance.",
+
+  "projects_desc4": "The AI inference server is built with FastAPI, while user management and data storage are handled by a Spring Boot backend. The entire backend system is deployed on Render, and communication between the client and servers is implemented via a RESTful API for scalability and reliability."
 }

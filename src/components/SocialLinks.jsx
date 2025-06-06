@@ -12,7 +12,7 @@ export default function SocialLinks({ inline = false }) {
         <FaGithub size={20} />
       </a>
       <a
-        href="https://linkedin.com/in/yourname"
+        href="https://www.linkedin.com/in/youngmin-k-1a95a6296"
         target="_blank"
         rel="noreferrer"
       >
