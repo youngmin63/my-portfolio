@@ -14,15 +14,15 @@ export default function Navbar({ active }) {
       <div className="flex gap-4 mb-0">
         <button
           onClick={() => i18n.changeLanguage("ko")}
-          className="text-sm text-[#8892b0] hover:text-[#64ffda] transition"
+          className="text-m text-[#8892b0] hover:text-[#64ffda] transition"
         >
-          KO
+          🇰🇷 KO
         </button>
         <button
           onClick={() => i18n.changeLanguage("en")}
-          className="text-sm text-[#8892b0] hover:text-[#64ffda] transition"
+          className="text-m text-[#8892b0] hover:text-[#64ffda] transition"
         >
-          EN
+          🇬🇧 EN
         </button>
       </div>
       <div className="flex flex-col gap-12">

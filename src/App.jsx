@@ -36,13 +36,13 @@ export default function App() {
             onClick={() => i18n.changeLanguage("ko")}
             className="text-sm text-[#8892b0] hover:text-[#64ffda] transition"
           >
-            KO
+            🇰🇷 KO
           </button>
           <button
             onClick={() => i18n.changeLanguage("en")}
             className="text-sm text-[#8892b0] hover:text-[#64ffda] transition"
           >
-            EN
+            🇬🇧 EN
           </button>
         </div>
         <Hero />
