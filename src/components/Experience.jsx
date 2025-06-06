@@ -15,11 +15,11 @@ export default function Experience() {
         {isEnglish && (
           <div>
             <h3 className="text-2xl font-semibold">
-              Combat Medical Technician (Republic of Korea Army)
+              Combat Medical Technician
             </h3>
             <p className="text-md text-[#8892b0] mt-1">
-              9th Infantry Division, 28th Regiment, Medical Company · Oct 2020 –
-              Apr 2022
+              9th Infantry Division, 28th Regiment, Medical Company (Republic of
+              Korea Army) <br />· Oct 2020 – Apr 2022
             </p>
             <ul className="list-disc pl-5 mt-3 text-[#ccd6f6] space-y-2 text-lg leading-relaxed">
               <li>
