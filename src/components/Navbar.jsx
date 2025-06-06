@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
+import i18n from "../i18n"; // ✅ import 필요
 
 export default function Navbar({ active }) {
   const menuItems = [
@@ -10,12 +11,26 @@ export default function Navbar({ active }) {
 
   return (
     <nav className="fixed top-0 left-0 h-screen max-w-[40vw] px-16 py-16 bg-[#0a192f] flex flex-col justify-between">
+      <div className="flex gap-4 mb-0">
+        <button
+          onClick={() => i18n.changeLanguage("ko")}
+          className="text-sm text-[#8892b0] hover:text-[#64ffda] transition"
+        >
+          KO
+        </button>
+        <button
+          onClick={() => i18n.changeLanguage("en")}
+          className="text-sm text-[#8892b0] hover:text-[#64ffda] transition"
+        >
+          EN
+        </button>
+      </div>
       <div className="flex flex-col gap-12">
         {/* Hero 소개글 */}
         <Hero />
 
         {/* 네비게이션 메뉴 */}
-        <ul className="space-y-6 text-lg font-semibold tracking-wide pl-2">
+        <ul className="space-y-6 text-lg mb-10 font-semibold tracking-wide pl-2">
           {menuItems.map((item) => {
             const isActive = active === item.id;
             return (
@@ -46,7 +61,6 @@ export default function Navbar({ active }) {
           })}
         </ul>
       </div>
-
       {/* 하단 소셜 아이콘은 그대로 */}
     </nav>
   );

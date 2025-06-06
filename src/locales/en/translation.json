@@ -1,0 +1,29 @@
+{
+  "about_title": "ABOUT",
+  "about_1": "I am a developer passionate about building AI-based services that connect people and technology.",
+  "about_2": "I initially majored in nursing, but during clinical practice, I encountered various medical technologies that inspired me with the potential of helping people through tech. After much reflection, I decided to take a leave of absence and shift my path to programming and artificial intelligence.",
+  "about_3": "Recently, I led the development of a healthcare app called JudeBalance. Built with React Native, FastAPI, and Spring Boot, the app measures and analyzes users' balance data to provide personalized exercise recommendations using the OpenAI API and a machine learning model. I personally designed and implemented the AI feedback system that gives real-time guidance based on user conditions.",
+  "about_4": "Serving as a combat medic and teaching children taught me that teamwork, empathy, and staying calm under pressure matter just as much as technical skill. I value building solutions through collaboration and clear communication.",
+  "about_5": "In my free time, I enjoy playing football and going for runs.",
+
+  "experience_title": "EXPERIENCE",
+  "exp_swim_title": "Swimming Instructor",
+  "exp_swim_period": "Chungju Swimming Pool · Jun–Sep 2022, Jun–Sep 2023",
+  "exp_swim_1": "Taught swimming and managed safety for elementary students",
+  "exp_swim_2": "Planned customized lessons and communicated with parents",
+  "exp_swim_3": "Provided survival swimming lessons to schools in Chungju",
+  "exp_eng_title": "Part-Time English Instructor",
+  "exp_eng_period": "Yoon's English School IGSE · Sep–Nov 2023",
+  "exp_eng_1": "Conducted English conversation and grammar classes for children",
+  "exp_eng_2": "Managed attendance and parent notifications",
+  "exp_eng_3": "Adjusted teaching based on feedback from students and parents",
+  "exp_resume_link": "View Full Resume",
+
+  "projects_title": "PROJECTS",
+  "projects_type": "Team Project",
+  "projects_name": "JudeBalance",
+  "projects_desc1": "JudeBalance is an AI-powered healthcare app designed to improve balance in middle-aged and older adults. Users measure sensor data for 20 seconds while holding the phone to their ear, and receive personalized exercise recommendations.",
+  "projects_desc2": "The frontend was built with React Native using Expo to ensure stability across mobile environments. The backend uses Spring Boot and FastAPI to manage user data and provide AI analysis.",
+  "projects_desc3": "It integrates OpenAI’s API for LLM-based feedback and a machine learning model built with scikit-learn to offer customized exercise guidance based on user status.",
+  "projects_desc4": "The entire backend is deployed on Render, and the client-AI server communication uses a RESTful API structure for high reliability and scalability."
+}
